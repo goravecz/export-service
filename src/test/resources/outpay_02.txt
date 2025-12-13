@@ -1,0 +1,11 @@
+22408456;71303142;CUP;20200212;OUTPAY;Takács Péter;1024 Budapest, Andrássy út 45.;;150.00;OW;  ;22408456;Takács Péter;        
+27329845;71318765;CUP;20200212;OUTPAY;Szabó Anna;6721 Szeged, Kálvária tér 8.;;125.00;OW;  ;27329845;Szabó Anna;        
+60056723;71334289;CUP;20200213;OUTPAY;Horváth Béla;4025 Debrecen, Piac utca 12.;;200.00;OW;  ;60056723;Horváth Béla;        
+66679834;71359874;CUP;20200212;OUTPAY;Tóth Éva;9024 Gy"or, Baross utca 23.;;175.00;OW;  ;66679834;Tóth Éva;        
+68009562;71387456;CUP;20200213;OUTPAY;Kiss Gábor;3530 Miskolc, Széchenyi út 56.;;100.00;OW;  ;68009562;Kiss Gábor;        
+22184789;71412398;CUP;20200212;OUTPAY;Nagy Ilona;7621 Pécs, Rákóczi út 78.;;225.00;OW;  ;22184789;Nagy Ilona;        
+27290456;71445621;CUP;20200213;OUTPAY;Kovács János;8000 Székesfehérvár, Pet"ofi tér 34.;;150.00;OW;  ;27290456;Kovács János;        
+62109874;71478934;CUP;20200212;OUTPAY;Farkas Mária;6000 Kecskemét, Kossuth tér 19.;;100.00;OW;  ;62109874;Farkas Mária;        
+63561982;71501287;CUP;20200213;OUTPAY;Varga Zsolt;2700 Cegléd, Rákóczi út 41.;;175.00;OW;  ;63561982;Varga Zsolt;        
+66937234;71534561;CUP;20200212;OUTPAY;Molnár Katalin;3300 Eger, Dobó tér 7.;;200.00;OW;  ;66937234;Molnár Katalin;        
+28051345;71567894;CUP;20200213;OUTPAY;Simon László;5000 Szolnok, Kossuth tér 28.;;125.00;OW;  ;28051345;Simon László;        

@@ -1,0 +1,9 @@
+86000583|76000567|Katona Péter |76000567|Katona Péter |00X|11111|5700 Gyula Béke sugárút 58. |
+86000592|76000576|Fekete Ágnes |76000576|Fekete Ágnes |00X|11111|2800 Tatabánya Vörösmarty utca 74. |
+86000609|76000585|Sándor Balázs |76000585|Sándor Balázs |00X|11111|8500 Pápa József Attila tér 32. |
+86000618|76000594|Lukács Éva |76000594|Lukács Éva |00X|11111|6600 Szentes Pet"ofi Sándor utca 95. |
+86000627|76000603|Horváth György |76000603|Horváth György |00X|11111|3300 Eger Dobó István tér 14. |
+86000636|76000612|Varga Katalin |76000612|Varga Katalin |00X|11111|5000 Szolnok Tisza park 67. |
+86000645|76000621|Kiss András |76000621|Kiss András |00X|11111|7900 Szigetvár Hunyadi János u. 49. |
+86000654|76000630|Nagy Beáta |76000630|Nagy Beáta |00X|11111|4100 Berettyóújfalu Kossuth tér 81. |
+86000663|10000649|                                                            |10000640|                                                            |00X|11111|4444 Berettyóújfalu Kossuth tér 81. |

@@ -1,0 +1,24 @@
+86000019|76000018|Szegedi István |76000018|Szegedi István |00X|11111|6436 Budapest Rév u. 27. |
+86000029|76000027|Fehér Katalin |76000027|Fehér Katalin |00X|11111|2345 Tatabánya Kossuth tér 6. II.209. |
+86000038|76000036|Kemény Noel |76000036|Kemény Noel |00X|11111|8657 Pécs Tas u. 28. |
+86000047|76000045|Pintér Béla |76000045|Pintér Béla |00X|11111|3636 Kisújszálllás Kétújfalu u. 195. |
+86000056|76000054|Rostás Róbert |76000054|Rostás Róbert |00X|11111|2456 Kerekegyháza Aranyhegyi út 12.II.2. |
+86000065|76000063|Kis Benedek |76000063|Kis Benedek |00X|11111|9556 Verpelét Martinovics u. 6. |
+86000074|76000072|Álmos Elõd |76000072|Álmos Elõd |00X|11111|3465 Eger Hunyadi u. 15. |
+86000083|76000081|Vörös János |76000081|Vörös János |00X|11111|3467 Sirok Gödörházi u. 48 |
+86000092|76000091|Vakula Péter |76000091|Vakula Péter |00X|11111|8946 Pellérd Závodszky Z. u. 55. I. 4. |
+86000109|10000281|                                                            |10000272|                                                            |00X|11111|1041 Budapest Závodszky Z. u. 55. I. 4. |
+86000118|76000116|Váci Zsombor |76000116|Váci Zsombor |00X|11111|2357 Polgár Gogol u. 31. II. 9. |
+86000127|76000125|Harcos Bálint |76000125|Harcos Bálint |00X|11111|6547 Pápa Kõhíd u. 12/d |
+86000136|76000134|Balla Tímea |76000134|Balla Tímea |00X|11111|7356 Káld Zay u. 24. II. |
+86000145|76000143|Farkas Olivér |76000143|Farkas Olivér |00X|11111|2355 Görcsöny Széchenyi u. 21. II. |
+86000154|76000152|Tóth Ádám |76000152|Tóth Ádám |00X|11111|8754 Ózd Wesselényi u. 108. |
+86000163|76000161|Pillár Géza |76000161|Pillár Géza |00X|11111|4363 Várpalota Avar köz 2/a |
+86000172|76000171|Szombathy Kázmér |76000171|Szombathy Kázmér |00X|11111|2356 Baja Szent Miklós u. 10/b III. 10. |
+86000181|10000281|                                                            |10000272|                                                            |00X|11111|2310 Szigetszentmiklós Szent Miklós u. 10/b III. 10. |
+86000191|76000199|Balatoni Gábor |76000199|Balatoni Gábor |00X|11111|7456 Szerencs Toboz u. 1. II. 7. |
+86000207|76000205|Horváth Domokos |76000205|Horváth Domokos |00X|11111|2346 Tokaj Kassai u. 25. IX. 36. |
+86000216|10000281|                                                            |10000272|                                                            |00X|11111||
+86000225|76000223|Gábor Gábor |76000223|Gábor Gábor |00X|11111|7876 Sopron Rét u. 89. |
+86000234|76000232|Fekete Attila |76000232|Fekete Attila |00X|11111|5647 Kõszeg Rákóczi u. 62. |
+86000243|76000241|Fülöp Mátyás |76000241|Fülöp Mátyás |00X|11111|3467 Mohács Móra F. u. 9. |

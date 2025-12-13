@@ -1,0 +1,10 @@
+86000378|76000358|Balogh András |76000358|Balogh András |00X|11111|2030 Érd F"o utca 67. |
+86000387|76000367|Németh Erzsébet |76000367|Németh Erzsébet |00X|11111|8200 Veszprém József Attila u. 89. |
+86000396|76000376|Papp Gergely |76000376|Papp Gergely |00X|11111|5600 Békéscsaba Bajcsy-Zsilinszky u. 11. |
+86000403|76000385|Lakatos Judit |76000385|Lakatos Judit |00X|11111|3100 Salgótarján Rákóczi út 43. |
+86000412|76000394|Bodnár Ferenc |76000394|Bodnár Ferenc |00X|11111|9700 Szombathely Kossuth Lajos u. 25. |
+86000421|76000403|Orosz Magdolna |76000403|Orosz Magdolna |00X|11111|6500 Baja Pet"ofi Sándor utca 78. |
+86000430|76000412|Heged"us Tamás |76000412|Heged"us Tamás |00X|11111|3700 Kazincbarcika Szent István tér 92. |
+86000449|76000421|Rácz Klára |76000421|Rácz Klára |00X|11111|4400 Nyíregyháza Széchenyi utca 54. |
+86000458|76000430|Török Mihály |76000430|Török Mihály |00X|11111|7100 Szekszárd Bem József utca 36. |
+86000467|10000449|                                                            |10000440|                                                            |00X|11111|2222 Szekszárd Bem József utca 36. |

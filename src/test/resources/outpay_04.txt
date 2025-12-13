@@ -1,0 +1,10 @@
+62111996;71901234;CUP;20200216;OUTPAY;Oláh Viktória;9400 Sopron, Deák Ferenc tér 18.;;100.00;OW;  ;62111996;Oláh Viktória;        
+63564104;71934567;CUP;20200216;OUTPAY;Mészáros Zoltán;2500 Esztergom, Rákóczi tér 72.;;175.00;OW;  ;63564104;Mészáros Zoltán;        
+66939567;71967890;CUP;20200217;OUTPAY;Király Rita;8100 Várpalota, Pet"ofi utca 5.;;200.00;OW;  ;66939567;Király Rita;        
+28053467;72001234;CUP;20200216;OUTPAY;Szabó Csaba;7400 Kaposvár, F"o utca 84.;;150.00;OW;  ;28053467;Szabó Csaba;        
+29939478;72034567;CUP;20200217;OUTPAY;Vincze Adrienn;9200 Mosonmagyaróvár, Vörösmarty tér 61.;;100.00;OW;  ;29939478;Vincze Adrienn;        
+62852601;72067890;CUP;20200216;OUTPAY;Gulyás Róbert;4200 Hajdúszoboszló, Arany János utca 39.;;225.00;OW;  ;62852601;Gulyás Róbert;        
+66842282;72101234;CUP;20200217;OUTPAY;Juhász Andrea;3200 Gyöngyös, Mátyás király utca 17.;;125.00;OW;  ;66842282;Juhász Andrea;        
+22706705;72134567;CUP;20200216;OUTPAY;Biró László;6800 Hódmez"ovásárhely, Kálvin tér 93.;;300.00;OW;  ;22706705;Biró László;        
+27334089;72167890;CUP;20200217;OUTPAY;Fehér Mónika;7300 Komló, Honvéd utca 46.;;175.00;OW;  ;27334089;Fehér Mónika;        
+60060967;72201234;CUP;20200216;OUTPAY;Gál István;2400 Dunaújváros, Lenin utca 21.;;100.00;OW;  ;60060967;Gál István;        

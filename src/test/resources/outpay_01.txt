@@ -1,0 +1,17 @@
+20930093;70027344;CUP;20200210;OUTPAY;Kovács Lajos;2643 Budapest, Berényi út 37.;;100.00;OW;  ;20930093;Kovács Lajos;        
+22702221;70176982;CUP;20200210;OUTPAY;Lange Nóra;2356 Gyula, Kossuth u. 81.;;100.00;OW;  ;22702221;Lange Nóra;        
+27327894;70182719;CUP;20200211;OUTPAY;Nagy Tibor;8634 Pécs, Szeder u. 1.;;100.00;OW;  ;27327894;Nagy Tibor;        
+68007246;70334264;CUP;20200210;OUTPAY;Farkas Olivér;2654 Madocsa, Alkotás u. 3. 3/14.;;100.00;OW;  ;68007246;Farkas Olivér;        
+66838832;70923428;CUP;20200210;OUTPAY;Fehér Katalin;2356 Miskolc, Paprét u. 5. 1/5.;;100.00;OW;  ;66838832;Fehér Katalin;        
+27288031;70943675;CUP;20200207;OUTPAY;Dr. Bodor Antal;8634 Tata, Thököly u. 8.;;100.00;OW;  ;27288031;Dr. Bodor Antal;        
+22407325;70994853;CUP;20200210;OUTPAY;Bánki Tamás Gyula;2356 Makó, Ifjúság út 25.;;100.00;OW;  ;22407325;Bánki Tamás Gyula;        
+62107649;71020556;CUP;20200210;OUTPAY;Bartha Károly;7546 Szeged, Rábca u. 15.;;100.00;OW;  ;62107649;Bartha Károly;        
+63559755;71034483;CUP;20200210;OUTPAY;Álmos Elõd;2353 Békéscsaba, Sajtoló u. 3/a;;100.00;OW;  ;63559755;Álmos Elõd;        
+62847236;71053348;CUP;20200210;OUTPAY;Pécsi Miklós;9736 Debrecen, Deák Ferenc u. 32.;;100.00;OW;  ;62847236;Pécsi Miklós;        
+22182436;71150621;CUP;20200210;OUTPAY;Kemény Noel;2456 Szolnok, Gagarin u. 1.;;100.00;OW;  ;22182436;Kemény Noel;        
+66934903;71158292;CUP;20200210;OUTPAY;Veres Pál;8456 Kaposvár, Ond vezér útja 36/A 4/18;;100.00;OW;  ;66934903;Veres Pál;        
+28048999;71160089;CUP;20200207;OUTPAY;Kis Benedek;2467 Veszprém, Fülemüle u. 6/a;;100.00;OW;  ;28048999;Kis Benedek;        
+60055446;71203265;CUP;20200210;OUTPAY;Rostás Róbert;9846 Gyõr, Losonc u. 3.;;100.00;OW;  ;60055446;Rostás Róbert;        
+29935324;71216427;CUP;20200207;OUTPAY;Molnár Ákos;1353 Gyód, I. k. tanya 33.;;100.00;OW;  ;29935324;Molnár Ákos;        
+22300039;71222381;CUP;20200210;OUTPAY;Pintér Béla;7543 Polgár, Visegrádi u. 50/a-b 3/15;;100.00;OW;  ;22300039;Pintér Béla;        
+66677541;71267239;CUP;20200207;OUTPAY;Szegedi István;2543 Bélapátfalva, Szabadság u. 39.;;100.00;OW;  ;66677541;Szegedi István;        

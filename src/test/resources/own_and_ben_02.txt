@@ -1,0 +1,12 @@
+86000252|76000250|Takács Péter |76000250|Takács Péter |00X|11111|1024 Budapest Andrássy út 45. |
+86000261|76000259|Szabó Anna |76000259|Szabó Anna |00X|11111|6721 Szeged Kálvária tér 8. |
+86000270|76000268|Horváth Béla |76000268|Horváth Béla |00X|11111|4025 Debrecen Piac utca 12. |
+86000289|76000277|Tóth Éva |76000277|Tóth Éva |00X|11111|9024 Gy"or Baross utca 23. |
+86000298|76000286|Kiss Gábor |76000286|Kiss Gábor |00X|11111|3530 Miskolc Széchenyi út 56. |
+86000305|76000295|Nagy Ilona |76000295|Nagy Ilona |00X|11111|7621 Pécs Rákóczi út 78. |
+86000314|76000304|Kovács János |76000304|Kovács János |00X|11111|8000 Székesfehérvár Pet"ofi tér 34. |
+86000323|76000313|Farkas Mária |76000313|Farkas Mária |00X|11111|6000 Kecskemét Kossuth tér 19. |
+86000332|76000322|Varga Zsolt |76000322|Varga Zsolt |00X|11111|2700 Cegléd Rákóczi út 41. |
+86000341|76000331|Molnár Katalin |76000331|Molnár Katalin |00X|11111|3300 Eger Dobó tér 7. |
+86000350|76000340|Simon László |76000340|Simon László |00X|11111|5000 Szolnok Kossuth tér 28. |
+86000369|10000349|                                                            |10000340|                                                            |00X|11111|1111 Szolnok Kossuth tér 28. |

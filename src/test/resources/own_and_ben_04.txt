@@ -1,0 +1,11 @@
+86000476|76000458|Oláh Viktória |76000458|Oláh Viktória |00X|11111|9400 Sopron Deák Ferenc tér 18. |
+86000485|76000467|Mészáros Zoltán |76000467|Mészáros Zoltán |00X|11111|2500 Esztergom Rákóczi tér 72. |
+86000494|76000476|Király Rita |76000476|Király Rita |00X|11111|8100 Várpalota Pet"ofi utca 5. |
+86000501|76000485|Szabó Csaba |76000485|Szabó Csaba |00X|11111|7400 Kaposvár F"o utca 84. |
+86000510|76000494|Vincze Adrienn |76000494|Vincze Adrienn |00X|11111|9200 Mosonmagyaróvár Vörösmarty tér 61. |
+86000529|76000503|Gulyás Róbert |76000503|Gulyás Róbert |00X|11111|4200 Hajdúszoboszló Arany János u. 39. |
+86000538|76000512|Juhász Andrea |76000512|Juhász Andrea |00X|11111|3200 Gyöngyös Mátyás király utca 17. |
+86000547|76000521|Biró László |76000521|Biró László |00X|11111|6800 Hódmez"ovásárhely Kálvin tér 93. |
+86000556|76000530|Fehér Mónika |76000530|Fehér Mónika |00X|11111|7300 Komló Honvéd utca 46. |
+86000565|76000539|Gál István |76000539|Gál István |00X|11111|2400 Dunaújváros Lenin utca 21. |
+86000574|10000558|                                                            |10000549|                                                            |00X|11111|3333 Dunaújváros Lenin utca 21. |
