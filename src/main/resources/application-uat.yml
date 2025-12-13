@@ -1,1 +1,7 @@
-spring.application.name=import-service
+spring:
+  application:
+    name: import-service
+
+filesystem:
+  tmp-folder: /tmp/import-service/uat/tmp
+  export-folder: /tmp/import-service/uat/export
