@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: export-service
+
+filesystem:
+  tmp-folder: /tmp/export-service/test/tmp
+  export-folder: /tmp/export-service/test/export
+
+scheduling:
+  redemption-cron: "*/2 * * * * *"  # Every 2 seconds
+  outpay-cron: "*/4 * * * * *"      # Every 4 seconds
+  own-and-ben-cron: "*/6 * * * * *" # Every 6 seconds
