@@ -1,4 +1,4 @@
-package com.nn.importservice.logging;
+package com.nn.exportservice.logging;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;

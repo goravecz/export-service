@@ -1,4 +1,4 @@
-package com.nn.importservice.logging;
+package com.nn.exportservice.logging;
 
 import org.slf4j.MDC;
 
@@ -9,7 +9,7 @@ public class LoggingContext {
     private static final String SERVICE = "service";
     private static final String OPERATION = "operation";
     private static final String CORRELATION_ID = "correlationId";
-    private static final String SERVICE_NAME = "import-service";
+    private static final String SERVICE_NAME = "export-service";
 
     public static void setOperation(String operation) {
         MDC.put(SERVICE, SERVICE_NAME);

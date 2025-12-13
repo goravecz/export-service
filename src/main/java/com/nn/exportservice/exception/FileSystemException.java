@@ -1,4 +1,4 @@
-package com.nn.importservice.exception;
+package com.nn.exportservice.exception;
 
 /**
  * Exception thrown when file system operations fail

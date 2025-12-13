@@ -1,4 +1,4 @@
-package com.nn.importservice.model;
+package com.nn.exportservice.model;
 
 import org.junit.jupiter.api.Test;
 

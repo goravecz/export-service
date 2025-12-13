@@ -1,4 +1,4 @@
-package com.nn.importservice.config;
+package com.nn.exportservice.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

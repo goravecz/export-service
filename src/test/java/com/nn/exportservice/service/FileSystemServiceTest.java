@@ -1,8 +1,8 @@
-package com.nn.importservice.service;
+package com.nn.exportservice.service;
 
-import com.nn.importservice.config.FileSystemProperties;
-import com.nn.importservice.exception.FileSystemException;
-import com.nn.importservice.model.FileOperationResult;
+import com.nn.exportservice.config.FileSystemProperties;
+import com.nn.exportservice.exception.FileSystemException;
+import com.nn.exportservice.model.FileOperationResult;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.io.TempDir;

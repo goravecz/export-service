@@ -1,9 +1,9 @@
-package com.nn.importservice.service;
+package com.nn.exportservice.service;
 
-import com.nn.importservice.config.FileSystemProperties;
-import com.nn.importservice.exception.FileSystemException;
-import com.nn.importservice.model.FileOperationResult;
-import com.nn.importservice.logging.LoggingContext;
+import com.nn.exportservice.config.FileSystemProperties;
+import com.nn.exportservice.exception.FileSystemException;
+import com.nn.exportservice.model.FileOperationResult;
+import com.nn.exportservice.logging.LoggingContext;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 

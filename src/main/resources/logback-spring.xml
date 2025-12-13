@@ -14,21 +14,21 @@
         <root level="INFO">
             <appender-ref ref="CONSOLE"/>
         </root>
-        <logger name="com.nn.importservice" level="DEBUG"/>
+        <logger name="com.nn.exportservice" level="DEBUG"/>
     </springProfile>
     
     <springProfile name="uat">
         <root level="INFO">
             <appender-ref ref="CONSOLE"/>
         </root>
-        <logger name="com.nn.importservice" level="INFO"/>
+        <logger name="com.nn.exportservice" level="INFO"/>
     </springProfile>
     
     <springProfile name="prod">
         <root level="WARN">
             <appender-ref ref="CONSOLE"/>
         </root>
-        <logger name="com.nn.importservice" level="INFO"/>
+        <logger name="com.nn.exportservice" level="INFO"/>
     </springProfile>
     
     <springProfile name="!dev &amp; !uat &amp; !prod">
