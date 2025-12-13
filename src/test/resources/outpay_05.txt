@@ -1,0 +1,8 @@
+68013806;72234567;CUP;20200218;OUTPAY;Katona Péter;5700 Gyula, Béke sugárút 58.;;200.00;OW;  ;68013806;Katona Péter;        
+22188034;72267890;CUP;20200218;OUTPAY;Fekete Ágnes;2800 Tatabánya, Vörösmarty utca 74.;;150.00;OW;  ;22188034;Fekete Ágnes;        
+27294700;72301234;CUP;20200219;OUTPAY;Sándor Balázs;8500 Pápa, József Attila tér 32.;;100.00;OW;  ;27294700;Sándor Balázs;        
+62114118;72334567;CUP;20200218;OUTPAY;Lukács Éva;6600 Szentes, Pet"ofi Sándor utca 95.;;225.00;OW;  ;62114118;Lukács Éva;        
+63566226;72367890;CUP;20200219;OUTPAY;Horváth György;3300 Eger, Dobó István tér 14.;;175.00;OW;  ;63566226;Horváth György;        
+66941890;72401234;CUP;20200218;OUTPAY;Varga Katalin;5000 Szolnok, Tisza park 67.;;100.00;OW;  ;66941890;Varga Katalin;        
+28055589;72434567;CUP;20200219;OUTPAY;Kiss András;7900 Szigetvár, Hunyadi János utca 49.;;150.00;OW;  ;28055589;Kiss András;        
+29941600;72467890;CUP;20200218;OUTPAY;Nagy Beáta;4100 Berettyóújfalu, Kossuth tér 81.;;300.00;OW;  ;29941600;Nagy Beáta;        

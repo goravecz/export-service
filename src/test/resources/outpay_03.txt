@@ -1,0 +1,9 @@
+29937856;71601234;CUP;20200214;OUTPAY;Balogh András;2030 Érd, F"o utca 67.;;300.00;OW;  ;29937856;Balogh András;        
+62850478;71634567;CUP;20200214;OUTPAY;Németh Erzsébet;8200 Veszprém, József Attila utca 89.;;125.00;OW;  ;62850478;Németh Erzsébet;        
+66840159;71667890;CUP;20200215;OUTPAY;Papp Gergely;5600 Békéscsaba, Bajcsy-Zsilinszky utca 11.;;100.00;OW;  ;66840159;Papp Gergely;        
+22704582;71701234;CUP;20200214;OUTPAY;Lakatos Judit;3100 Salgótarján, Rákóczi út 43.;;250.00;OW;  ;22704582;Lakatos Judit;        
+27331967;71734567;CUP;20200215;OUTPAY;Bodnár Ferenc;9700 Szombathely, Kossuth Lajos utca 25.;;175.00;OW;  ;27331967;Bodnár Ferenc;        
+60058845;71767890;CUP;20200214;OUTPAY;Orosz Magdolna;6500 Baja, Pet"ofi Sándor utca 78.;;100.00;OW;  ;60058845;Orosz Magdolna;        
+68011684;71801234;CUP;20200215;OUTPAY;Heged"us Tamás;3700 Kazincbarcika, Szent István tér 92.;;200.00;OW;  ;68011684;Heged"us Tamás;        
+22186912;71834567;CUP;20200214;OUTPAY;Rácz Klára;4400 Nyíregyháza, Széchenyi utca 54.;;150.00;OW;  ;22186912;Rácz Klára;        
+27292578;71867890;CUP;20200215;OUTPAY;Török Mihály;7100 Szekszárd, Bem József utca 36.;;225.00;OW;  ;27292578;Török Mihály;        
