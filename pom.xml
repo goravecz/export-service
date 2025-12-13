@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.nn</groupId>
-	<artifactId>import-service</artifactId>
+	<artifactId>export-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>import-service</name>
+	<name>export-service</name>
 	<description>Demo project for NN</description>
 	<properties>
 		<java.version>21</java.version>

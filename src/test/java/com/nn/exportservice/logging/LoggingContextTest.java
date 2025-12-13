@@ -17,7 +17,7 @@ class LoggingContextTest {
     void testSetOperation_SetsServiceOperationAndCorrelationId() {
         LoggingContext.setOperation("test_operation");
 
-        assertThat(MDC.get("service")).isEqualTo("import-service");
+        assertThat(MDC.get("service")).isEqualTo("export-service");
         assertThat(MDC.get("operation")).isEqualTo("test_operation");
         assertThat(MDC.get("correlationId")).isNotNull();
     }

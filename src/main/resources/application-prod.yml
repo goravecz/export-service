@@ -1,7 +1,7 @@
 spring:
   application:
-    name: import-service
+    name: export-service
 
 filesystem:
-  tmp-folder: /var/import-service/tmp
-  export-folder: /var/import-service/export
+  tmp-folder: /var/export-service/tmp
+  export-folder: /var/export-service/export
