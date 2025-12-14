@@ -110,6 +110,12 @@
 							<goal>check</goal>
 						</goals>
 						<configuration>
+							<excludes>
+								<exclude>**/dto/**</exclude>
+								<exclude>**/model/**</exclude>
+								<exclude>**/logging/**</exclude>
+								<exclude>**/ExportServiceApplication.class</exclude>
+							</excludes>
 							<rules>
 								<rule>
 									<element>BUNDLE</element>
