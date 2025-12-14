@@ -35,7 +35,7 @@ class ScheduledFileProcessorIT {
     void setUp() throws IOException {
         tmpFolder = Paths.get(fileSystemProperties.tmpFolder());
         exportFolder = Paths.get(fileSystemProperties.exportFolder());
-        testResourcesFolder = Paths.get("src/test/resources");
+        testResourcesFolder = Paths.get("src/test/resources/testfiles");
 
         // Create directories
         Files.createDirectories(tmpFolder);

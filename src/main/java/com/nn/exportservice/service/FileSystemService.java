@@ -9,8 +9,8 @@ import org.springframework.stereotype.Service;
 
 import java.io.IOException;
 import java.nio.file.*;
-import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 @Slf4j
@@ -33,25 +33,29 @@ public class FileSystemService {
     public List<Path> listFilesByPrefix(String prefixPattern) {
         LoggingContext.setOperation("list_files");
         try {
-            List<Path> matchingFiles = new ArrayList<>();
             Path tmpPath = Paths.get(fileSystemProperties.tmpFolder());
 
             if (!Files.exists(tmpPath)) {
                 log.warn("tmp folder does not exist path={}", tmpPath);
+                return List.of();
+            }
+
+            if (!Files.isDirectory(tmpPath)) {
+                throw new FileSystemException("Failed to list files with prefix: " + prefixPattern + " - path is not a directory: " + tmpPath);
+            }
+
+            try (Stream<Path> stream = Files.walk(tmpPath, 1)) {
+                List<Path> matchingFiles = stream
+                        .filter(Files::isRegularFile)
+                        .filter(path -> path.getFileName().toString().startsWith(prefixPattern))
+                        .collect(Collectors.toList());
+                
+                log.info("prefix={} count={}", prefixPattern, matchingFiles.size());
                 return matchingFiles;
             }
-
-            try (Stream<Path> stream = Files.list(tmpPath)) {
-                stream.filter(Files::isRegularFile)
-                        .filter(path -> path.getFileName().toString().startsWith(prefixPattern))
-                        .forEach(matchingFiles::add);
-            } catch (IOException e) {
-                log.error("failed to list files prefix={} error={}", prefixPattern, e.getMessage(), e);
-                throw new FileSystemException("Failed to list files with prefix: " + prefixPattern, e);
-            }
-
-            log.info("prefix={} count={}", prefixPattern, matchingFiles.size());
-            return matchingFiles;
+        } catch (IOException e) {
+            log.error("failed to list files prefix={} error={}", prefixPattern, e.getMessage(), e);
+            throw new FileSystemException("Failed to list files with prefix: " + prefixPattern, e);
         } finally {
             LoggingContext.clear();
         }
