@@ -36,21 +36,22 @@ public class ScheduledFileProcessor {
     }
 
     private void processFilesByType(FileType fileType) {
-        LoggingContext.setOperation("scheduled_file_processing");
+        LoggingContext.setOperation("EXPORT_" + fileType.name());
+        LoggingContext.setFileType(fileType.name());
         try {
-            log.info("Starting scheduled processing for fileType={}", fileType);
+            log.info("Starting scheduled processing");
             
             List<Path> files = fileSystemService.listFilesByPrefix(fileType.getPrefixPattern());
             
             if (files.isEmpty()) {
-                log.info("No files found for fileType={}", fileType);
+                log.info("No files found");
                 return;
             }
             
             FileOperationResult result = fileSystemService.moveFiles(files);
             
-            log.info("Completed scheduled processing for fileType={} successful={} errors={}", 
-                    fileType, result.getSuccessCount(), result.getErrorCount());
+            log.info("Completed scheduled processing successful={} errors={}", 
+                    result.getSuccessCount(), result.getErrorCount());
                     
             if (result.hasErrors()) {
                 result.getErrors().forEach(error -> 
@@ -58,7 +59,7 @@ public class ScheduledFileProcessor {
                 );
             }
         } catch (Exception e) {
-            log.error("Failed scheduled processing for fileType={} error={}", fileType, e.getMessage(), e);
+            log.error("Failed scheduled processing error={}", e.getMessage(), e);
         } finally {
             LoggingContext.clear();
         }

@@ -9,6 +9,7 @@ public class LoggingContext {
     private static final String SERVICE = "service";
     private static final String OPERATION = "operation";
     private static final String CORRELATION_ID = "correlationId";
+    private static final String FILE_TYPE = "fileType";
     private static final String SERVICE_NAME = "export-service";
 
     public static void setOperation(String operation) {
@@ -29,6 +30,10 @@ public class LoggingContext {
 
     public static void setCorrelationId(String correlationId) {
         MDC.put(CORRELATION_ID, correlationId);
+    }
+
+    public static void setFileType(String fileType) {
+        MDC.put(FILE_TYPE, fileType);
     }
 
     private static String generateCorrelationId() {

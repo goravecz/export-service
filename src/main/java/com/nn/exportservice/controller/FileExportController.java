@@ -44,17 +44,18 @@ public class FileExportController {
     }
 
     private ResponseEntity<FileExportResponse> processFileExport(FileType fileType) {
-        LoggingContext.setOperation("manual_file_export");
+        LoggingContext.setOperation("EXPORT_" + fileType.name());
+        LoggingContext.setFileType(fileType.name());
         try {
-            log.info("Manual export triggered for fileType={}", fileType);
+            log.info("Manual export triggered");
 
             List<Path> files = fileSystemService.listFilesByPrefix(fileType.getPrefixPattern());
             FileOperationResult result = fileSystemService.moveFiles(files);
 
             FileExportResponse response = fileExportMapper.toResponse(fileType, result);
 
-            log.info("Manual export completed for fileType={} successful={} errors={}",
-                    fileType, result.getSuccessCount(), result.getErrorCount());
+            log.info("Manual export completed successful={} errors={}",
+                    result.getSuccessCount(), result.getErrorCount());
 
             return ResponseEntity.ok(response);
         } finally {

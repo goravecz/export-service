@@ -3,7 +3,6 @@ package com.nn.exportservice.service;
 import com.nn.exportservice.config.FileSystemProperties;
 import com.nn.exportservice.exception.FileSystemException;
 import com.nn.exportservice.model.FileOperationResult;
-import com.nn.exportservice.logging.LoggingContext;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
@@ -31,7 +30,6 @@ public class FileSystemService {
      * @throws FileSystemException if unable to list files
      */
     public List<Path> listFilesByPrefix(String prefixPattern) {
-        LoggingContext.setOperation("list_files");
         try {
             Path tmpPath = Paths.get(fileSystemProperties.tmpFolder());
 
@@ -56,8 +54,6 @@ public class FileSystemService {
         } catch (IOException e) {
             log.error("failed to list files prefix={} error={}", prefixPattern, e.getMessage(), e);
             throw new FileSystemException("Failed to list files with prefix: " + prefixPattern, e);
-        } finally {
-            LoggingContext.clear();
         }
     }
 
@@ -70,40 +66,35 @@ public class FileSystemService {
      * @throws FileSystemException if unable to create export directory
      */
     public FileOperationResult moveFiles(List<Path> filePaths) {
-        LoggingContext.setOperation("move_files");
+        FileOperationResult result = new FileOperationResult();
+        Path exportPath = Paths.get(fileSystemProperties.exportFolder());
+
         try {
-            FileOperationResult result = new FileOperationResult();
-            Path exportPath = Paths.get(fileSystemProperties.exportFolder());
+            if (!Files.exists(exportPath)) {
+                Files.createDirectories(exportPath);
+                log.info("created directory path={}", exportPath);
+            }
+        } catch (IOException e) {
+            log.error("failed to create directory path={} error={}", exportPath, e.getMessage(), e);
+            throw new FileSystemException("Failed to create export directory: " + exportPath, e);
+        }
+
+        for (Path sourcePath : filePaths) {
+            String fileName = sourcePath.getFileName().toString();
+            Path destinationPath = exportPath.resolve(fileName);
 
             try {
-                if (!Files.exists(exportPath)) {
-                    Files.createDirectories(exportPath);
-                    log.info("created directory path={}", exportPath);
-                }
+                Files.move(sourcePath, destinationPath, StandardCopyOption.REPLACE_EXISTING);
+                result.addSuccess(fileName);
+                log.info("filename={} from={} to={}", fileName, sourcePath, destinationPath);
             } catch (IOException e) {
-                log.error("failed to create directory path={} error={}", exportPath, e.getMessage(), e);
-                throw new FileSystemException("Failed to create export directory: " + exportPath, e);
+                result.addError(fileName, e.getMessage());
+                log.error("failed to move file filename={} error={}", fileName, e.getMessage(), e);
             }
-
-            for (Path sourcePath : filePaths) {
-                String fileName = sourcePath.getFileName().toString();
-                Path destinationPath = exportPath.resolve(fileName);
-
-                try {
-                    Files.move(sourcePath, destinationPath, StandardCopyOption.REPLACE_EXISTING);
-                    result.addSuccess(fileName);
-                    log.info("filename={} from={} to={}", fileName, sourcePath, destinationPath);
-                } catch (IOException e) {
-                    result.addError(fileName, e.getMessage());
-                    log.error("failed to move file filename={} error={}", fileName, e.getMessage(), e);
-                }
-            }
-
-            log.info("moved {} files, {} errors", result.getSuccessCount(), result.getErrorCount());
-            return result;
-        } finally {
-            LoggingContext.clear();
         }
+
+        log.info("moved {} files, {} errors", result.getSuccessCount(), result.getErrorCount());
+        return result;
     }
 
 }
