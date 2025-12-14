@@ -48,13 +48,13 @@ class FileExportControllerTest {
         );
         
         mockResult = new FileOperationResult();
-        mockResult.addSuccess("redemption_01.txt");
-        mockResult.addSuccess("redemption_02.txt");
+        mockResult.addSuccess("testfiles/redemption_01.txt");
+        mockResult.addSuccess("testfiles/redemption_02.txt");
         
         mockResponse = new FileExportResponse(
                 "REDEMPTION",
                 2,
-                List.of("redemption_01.txt", "redemption_02.txt"),
+                List.of("testfiles/redemption_01.txt", "testfiles/redemption_02.txt"),
                 List.of()
         );
     }
@@ -108,14 +108,14 @@ class FileExportControllerTest {
     @Test
     void testExportRedemptionFiles_WithErrors() {
         FileOperationResult resultWithErrors = new FileOperationResult();
-        resultWithErrors.addSuccess("redemption_01.txt");
-        resultWithErrors.addError("redemption_02.txt", "Failed to move file");
+        resultWithErrors.addSuccess("testfiles/redemption_01.txt");
+        resultWithErrors.addError("testfiles/redemption_02.txt", "Failed to move file");
 
         FileExportResponse responseWithErrors = new FileExportResponse(
                 "REDEMPTION",
                 1,
-                List.of("redemption_01.txt"),
-                List.of(new ErrorDetail("redemption_02.txt", "Failed to move file"))
+                List.of("testfiles/redemption_01.txt"),
+                List.of(new ErrorDetail("testfiles/redemption_02.txt", "Failed to move file"))
         );
 
         when(fileSystemService.listFilesByPrefix("redemption")).thenReturn(mockFiles);
@@ -129,7 +129,7 @@ class FileExportControllerTest {
         assertNotNull(response.getBody());
         assertEquals(1, response.getBody().filesProcessed());
         assertEquals(1, response.getBody().errors().size());
-        assertEquals("redemption_02.txt", response.getBody().errors().get(0).fileName());
+        assertEquals("testfiles/redemption_02.txt", response.getBody().errors().get(0).fileName());
 
         verify(fileSystemService).listFilesByPrefix("redemption");
         verify(fileSystemService).moveFiles(mockFiles);
@@ -143,13 +143,13 @@ class FileExportControllerTest {
         );
 
         FileOperationResult outpayResult = new FileOperationResult();
-        outpayResult.addSuccess("outpay_01.txt");
-        outpayResult.addSuccess("outpay_02.txt");
+        outpayResult.addSuccess("testfiles/outpay_01.txt");
+        outpayResult.addSuccess("testfiles/outpay_02.txt");
 
         FileExportResponse outpayResponse = new FileExportResponse(
                 "OUTPAY",
                 2,
-                List.of("outpay_01.txt", "outpay_02.txt"),
+                List.of("testfiles/outpay_01.txt", "testfiles/outpay_02.txt"),
                 List.of()
         );
 
@@ -201,13 +201,13 @@ class FileExportControllerTest {
         );
 
         FileOperationResult ownAndBenResult = new FileOperationResult();
-        ownAndBenResult.addSuccess("own_and_ben_01.txt");
-        ownAndBenResult.addSuccess("own_and_ben_02.txt");
+        ownAndBenResult.addSuccess("testfiles/own_and_ben_01.txt");
+        ownAndBenResult.addSuccess("testfiles/own_and_ben_02.txt");
 
         FileExportResponse ownAndBenResponse = new FileExportResponse(
                 "OWN_AND_BEN",
                 2,
-                List.of("own_and_ben_01.txt", "own_and_ben_02.txt"),
+                List.of("testfiles/own_and_ben_01.txt", "testfiles/own_and_ben_02.txt"),
                 List.of()
         );
 
@@ -298,8 +298,8 @@ class FileExportControllerTest {
     void testExportOutpayFiles_VerifyCorrectFileTypePassedToMapper() {
         List<Path> outpayFiles = List.of(Paths.get("/tmp/outpay_01.txt"));
         FileOperationResult outpayResult = new FileOperationResult();
-        outpayResult.addSuccess("outpay_01.txt");
-        FileExportResponse outpayResponse = new FileExportResponse("OUTPAY", 1, List.of("outpay_01.txt"), List.of());
+        outpayResult.addSuccess("testfiles/outpay_01.txt");
+        FileExportResponse outpayResponse = new FileExportResponse("OUTPAY", 1, List.of("testfiles/outpay_01.txt"), List.of());
 
         when(fileSystemService.listFilesByPrefix("outpay")).thenReturn(outpayFiles);
         when(fileSystemService.moveFiles(outpayFiles)).thenReturn(outpayResult);
@@ -315,8 +315,8 @@ class FileExportControllerTest {
     void testExportOwnAndBenFiles_VerifyCorrectFileTypePassedToMapper() {
         List<Path> ownAndBenFiles = List.of(Paths.get("/tmp/own_and_ben_01.txt"));
         FileOperationResult ownAndBenResult = new FileOperationResult();
-        ownAndBenResult.addSuccess("own_and_ben_01.txt");
-        FileExportResponse ownAndBenResponse = new FileExportResponse("OWN_AND_BEN", 1, List.of("own_and_ben_01.txt"), List.of());
+        ownAndBenResult.addSuccess("testfiles/own_and_ben_01.txt");
+        FileExportResponse ownAndBenResponse = new FileExportResponse("OWN_AND_BEN", 1, List.of("testfiles/own_and_ben_01.txt"), List.of());
 
         when(fileSystemService.listFilesByPrefix("own_and_ben")).thenReturn(ownAndBenFiles);
         when(fileSystemService.moveFiles(ownAndBenFiles)).thenReturn(ownAndBenResult);

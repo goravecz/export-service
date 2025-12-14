@@ -24,7 +24,7 @@ import java.util.stream.Stream;
 import static org.awaitility.Awaitility.await;
 import static org.junit.jupiter.api.Assertions.*;
 
-@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
+@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT, properties = "spring.task.scheduling.enabled=false")
 @ActiveProfiles("test")
 class FileExportControllerIT {
 
@@ -56,7 +56,7 @@ class FileExportControllerIT {
         
         tmpFolder = Paths.get(fileSystemProperties.tmpFolder());
         exportFolder = Paths.get(fileSystemProperties.exportFolder());
-        testResourcesFolder = Paths.get("src/test/resources");
+        testResourcesFolder = Paths.get("src/test/resources/testfiles");
 
         Files.createDirectories(tmpFolder);
         Files.createDirectories(exportFolder);
